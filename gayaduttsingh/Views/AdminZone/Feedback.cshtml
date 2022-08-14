@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Feedback";
+    Layout = "~/Views/Shared/AdminZone.cshtml";
+}
+
+<h2>Feedback</h2>
+<br />
+
+@using gayaduttsingh.Models
+@model List<Feedback>
+<table class="tbl tbl-responsive" border="1">
+    <tr>
+        <th>Name</th>
+        <th>Mobile Number</th>
+        <th>Query</th>
+        <th>Date/Time</th>
+    </tr>
+    @{
+     foreach(var x in Model)
+     {
+      <tr style="color:red; font-size:17px;">
+          <td>@x.name</td>
+          <td>@x.mob</td>
+          <td>@x.query</td>
+          <td>@x.fdt</td>
+      </tr>   
+     }   
+    }
+</table>

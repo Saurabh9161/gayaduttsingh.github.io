@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/AdminZone.cshtml";
+}
+
+<h2>Contact</h2>
+
+<br />
+
+@using gayaduttsingh.Models
+@model List<ContactTbl>
+<table class="tbl tbl-responsive" border="1">
+    <tr>
+        <th>Name</th>
+        <th>School Name</th>
+        <th>Address</th>
+        <th>Email</th>
+        <th>Contact</th>
+        <th>Date/Time</th>
+    </tr>
+    @{
+        foreach(var x in Model)
+        {
+            <tr style="color:red; font-size:15px;">
+                <td>@x.name</td>
+                 <td>@x.school</td>
+                 <td>@x.address</td>
+                 <td>@x.email</td>
+                 <td>@x.contact</td>
+                <td>@x.cdt</td>
+            </tr>
+    }
+    
+   }
+    </table>
+  

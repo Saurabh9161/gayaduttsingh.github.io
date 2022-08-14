@@ -1,0 +1,216 @@
+﻿@{
+    ViewBag.Title = "Saurabh";
+    Layout = "~/Views/Shared/General.cshtml";
+}
+
+@{
+    Layout = null;
+}
+
+<html>
+<head>
+    <title>Chandra Shekhar Azad : C.S.A.com</title>
+     <link href="~/content/Gallery/gdslogo.jpg" rel="icon"/>
+<link href="~/content/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="~/content/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="~/content/css/hover-min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<script src="~/content/js/jquery.js"></script>
+<script src="~/content/js/bootstrap.min.js"></script>
+<style>
+.t1
+{
+min-height:35px;
+background:#f7f7f7;
+}
+.t2
+{
+padding-left:30px;
+margin-top:4px;
+}
+.icon
+{
+height:25px;
+width:25px;
+border:2px solid black;
+text-align:center;
+color:#7a7a7a;
+border-radius:50%;
+padding-top:4px;
+font-size:13px;
+}
+.social
+{
+text-align:right;
+}
+.icon:hover
+{
+background:purple;
+transition:all ease 1s;
+}
+.header
+{
+min-height:80px;
+}
+#menu
+{
+
+color:red;
+}
+#menu ul li:hover
+{
+background:linear-gradient(70deg,#1ca3f3,#06fca6);
+}
+
+.about
+{
+min-height:450px;
+text-align:center;
+}
+.pic
+{
+border:3px solid black;
+border-radius:50%;
+}
+.main
+{
+min-height:500px;
+background:#f8f7e6;
+
+}
+.location
+{
+min-height:350px;
+background:linear-gradient(40deg,#1ca3f3,#06fca6,purple);
+}
+.gallery
+{
+min-height:400px;
+background:#e8e8ff;
+}
+.ufooter
+{
+min-height:300px;
+background:#2a2d2f;
+}
+.bfooter
+{
+min-height:25px;
+background:black;
+}
+.s
+{
+min-height:100px;
+background:linear-gradient(40deg,#1ca3f3,yellow,#06fca6,purple);
+border:4px solid #1ca3f3;
+color:white;
+text-align:center;
+font-size:15px;
+font-weight:bold;
+padding:20px;
+}
+.gmap
+{
+border:5px solid white;
+}
+
+
+</style>
+</head>
+<body>
+<div class="container-fluid">
+<div class="row t1">
+<div class="col-sm-1"></div>
+<div class="col-sm-6 t2">
+<span class="fa fa-phone icon fa-spin"></span>Helpline No :<a href="tel:+91 9415968341" style="font-size:15px;text-decoration:none">+91 9415968341</a> ,<a href="tel:+91 8808710511" style="font-size:15px;text-decoration:none"> 8808710511</a> |
+ <a href="mailto:scaicm61@gmail.com" style="font-size:15px;text-decoration:none"><span class="fa fa-envelope icon"></span> scaicm61@gmail.com</a>
+ </div>
+<div class="col-sm-2"></div>
+<div class="col-sm-3 social">
+<a href="#"><span class="fa fa-facebook icon" style="margin-right:15px; margin-top:5px;"></span></a>
+<a href="#"><span class="fa fa-google icon" style="margin-right:15px;"></span></a>
+<a href="#"><span class="fa fa-youtube icon" style="margin-right:15px;"></span></a>
+</div>
+</div>
+<!------------------------------------Row part close------------------------------------------------>
+<div class="row header">
+<div class="col-sm-12" style="padding:0px;">
+<nav class="navbar navbar-default" id="menu" style="margin:0px;padding:0px;">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>       
+      </button>
+      <a class="navbar-brand" href="/Home/Index"><img src="~/content/Gallery/Clogo.jpg" class="img-fluid" style="max-height:50px; margin-top:-14px;"/></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav navbar-left">
+<li class="nav-item"><a class="nav-link" href="/Home/Index"><span class="fa fa-home" style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> Home</a></li>
+<li class="nav-item"><a class="nav-link" href="/Home/AboutUs"><span class="fa fa-info-circle" style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> AboutUs</a></li>
+		<li class="nav-item"><a class="nav-link" href="/Home/Events"><span class="fa fa-image" style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> Events</a></li>
+<li class="nav-item"><a class="nav-link" href="/Home/ContactUs"><span class="fa fa-address-book" style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> Contact us</a></li>
+<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="fa fa-edit" style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span>  Student Section<span class="caret"></span></a>
+          <ul class="dropdown-menu" style="background-color:orange">
+		  <li class="nav-item"><a class="nav-link" href="/Home/Register"><span style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> Register</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://byjus.com/ncert-books/"><span style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> Books</a></li>
+		<li class="nav-item"><a class="nav-link" href="/Home/Teachers"><span style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> Teachers</a></li>
+		<li class="nav-item"><a class="nav-link" href="https://upmsp.edu.in/SearchAdmitCard.aspx"><span style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> Admit Card</a></li>
+		<li class="nav-item"><a class="nav-link" href="https://upresults.nic.in/"><span style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> Result</a></li>
+		</ul>
+        </li>
+       <li class="nav-item"><a class="nav-link" href="/Home/Location"><span class="fa fa-map-marker" style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> Location</a></li>
+       <li class="nav-item"><a class="nav-link" href="/Home/Login"><span class="fa fa-key" style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> Login</a></li>
+	   </ul>
+      
+
+         <ul class="nav navbar-nav navbar-right">
+	  <a href="/Home/Enquiry"><button type="button" class="btn btn-success hvr-wobble-bottom" style="margin-top:10px;">Admission Enquiry</button></a>
+        </ul>
+	  
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>
+</div>
+</div>
+<!--------------------------------------------------------Menu close------------------------------------>
+
+   <div class="row">
+       <u style="color:red; font-size:xx-large;margin-left:550px;">SELF INTRODUCED</u><br /><br />
+       <div class="container">
+           <center>
+             <iframe src="~/content/Gallery/pic.jpeg" title="" scrolling="no" frameborder="2"
+                                    width="123px" height="120px"></iframe><br>
+               <mark style="background-color:yellow; font-weight:bold; font-size:20px;">ER. SAURABH SINGH</mark><br><br>
+		  </center>
+       </div>
+       <div class="container">
+         
+          
+
+       </div>
+   </div>
+
+    <!--------------------------------------------------------self close------------------------------------>
+
+
+
+<div class="row bfooter">
+<div class="col-sm-2"></div>
+<div class="col-sm-7">
+<h6 style="color:white; text-align:center"><span class="fa fa-copyright"></span>&nbsp;&nbsp; 2006 &nbsp;&nbsp;<a href="/Home/Index" style="color:orange; font-size:15px;text-decoration:none;">C.S.A. School</a> &nbsp;&nbsp;2006 &nbsp;|&nbsp; Designed&nbsp; By&nbsp; <a href="/Home/Saurabh" style="color:orange;text-decoration:none;">ER. SAURABH&nbsp; SINGH</a></h6>
+</div>
+<div class="col-sm-3"><a style="color:orange; font-size:15px; text-align:center;text-decoration:none;">Privacy&nbsp; and &nbsp;Policy</a></div>
+</div>
+
+<!-----------------------------------------------------Bfooter Close----------------------------------------------->
+
+</div>
+</body>
+</html>

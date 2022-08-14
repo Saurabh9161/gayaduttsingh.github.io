@@ -1,0 +1,416 @@
+﻿<html>
+<head>
+<link href="~/content/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="~/content/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="~/content/css/hover-min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<script src="~/content/js/jquery.js"></script>
+<script src="~/content/js/bootstrap.min.js"></script>
+<style>
+.t1
+{
+min-height:35px;
+background:#f7f7f7;
+}
+.t2
+{
+padding-left:30px;
+margin-top:4px;
+}
+.icon
+{
+height:25px;
+width:25px;
+border:2px solid black;
+text-align:center;
+color:#7a7a7a;
+border-radius:50%;
+padding-top:4px;
+font-size:13px;
+}
+.social
+{
+text-align:right;
+}
+.icon:hover
+{
+background:purple;
+transition:all ease 1s;
+}
+.header
+{
+min-height:80px;
+}
+#menu
+{
+
+color:red;
+}
+#menu ul li:hover
+{
+background:linear-gradient(70deg,#1ca3f3,#06fca6);
+}
+
+.about
+{
+min-height:450px;
+text-align:center;
+}
+.pic
+{
+border:3px solid black;
+border-radius:50%;
+}
+.main
+{
+min-height:500px;
+background:#f8f7e6;
+
+}
+.location
+{
+min-height:350px;
+background:linear-gradient(40deg,#1ca3f3,#06fca6,purple);
+}
+.gallery
+{
+min-height:400px;
+background:#e8e8ff;
+}
+.ufooter
+{
+min-height:300px;
+background:#2a2d2f;
+}
+.bfooter
+{
+min-height:25px;
+background:black;
+}
+.s
+{
+min-height:100px;
+background:linear-gradient(40deg,#1ca3f3,yellow,#06fca6,purple);
+border:4px solid #1ca3f3;
+color:white;
+text-align:center;
+font-size:15px;
+font-weight:bold;
+padding:20px;
+}
+.gmap
+{
+border:5px solid white;
+}
+
+
+</style>
+</head>
+<body>
+<div class="container-fluid">
+<div class="row t1">
+<div class="col-sm-1"></div>
+<div class="col-sm-6 t2">
+<span class="fa fa-phone icon fa-spin"></span>Helpline No :+91 7985238749 , 9838878222 |
+ <a href="#"><span class="fa fa-envelope icon"></span> gdsintercollege@gmail.com</a>
+ </div>
+<div class="col-sm-2"></div>
+<div class="col-sm-3 social">
+<a href="https://m.facebook.com/gds.gonda?fref=nf"><span class="fa fa-facebook icon" style="margin-right:15px; margin-top:5px;"></span></a>
+<a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiU_t3osf7yAhUkgtgFHdI6DMoQPAgI"><span class="fa fa-google icon" style="margin-right:15px;"></span></a>
+<a href="https://www.youtube.com/channel/UCZmSsDDCpHctYtu0QymdZ7Q"><span class="fa fa-youtube icon" style="margin-right:15px;"></span></a>
+</div>
+</div>
+<!------------------------------------Row part close------------------------------------------------>
+<div class="row header">
+<div class="col-sm-12" style="padding:0px;">
+<nav class="navbar navbar-default" id="menu" style="margin:0px;padding:0px;">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="~/content/Gallery/gdslogo.jpg" class="img-fluid" style="max-height:50px; margin-top:-14px;"/></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav navbar-left">
+<li class="nav-item"><a class="nav-link" href="/Home/Index"><span class="fa fa-home" style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> Home</a></li>
+<li class="nav-item"><a class="nav-link" href="/Home/AboutUs"><span class="fa fa-info-circle" style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> AboutUs</a></li>
+		<li class="nav-item"><a class="nav-link" href="/Home/Events"><span class="fa fa-image" style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> Events</a></li>
+<li class="nav-item"><a class="nav-link" href="/Home/ContactUs"><span class="fa fa-address-book" style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> Contact us</a></li>
+<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="fa fa-edit" style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span>  Student Section<span class="caret"></span></a>
+          <ul class="dropdown-menu" style="background-color:orange">
+		  <li class="nav-item"><a class="nav-link" href="/Home/Register"><span style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> Register</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://byjus.com/ncert-books/"><span style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> Books</a></li>
+		<li class="nav-item"><a class="nav-link" href="/Home/Teachers"><span style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> Teachers</a></li>
+		<li class="nav-item"><a class="nav-link" href="https://upmsp.edu.in/SearchAdmitCard.aspx"><span style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> Admit Card</a></li>
+		<li class="nav-item"><a class="nav-link" href="https://upresults.nic.in/"><span style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> Result</a></li>
+		</ul>
+        </li>
+       <li class="nav-item"><a class="nav-link" href="/Home/Location"><span class="fa fa-map-marker" style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> Location</a></li>
+       <li class="nav-item"><a class="nav-link" href="/Home/Login"><span class="fa fa-key" style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> Login</a></li>
+	   </ul>
+        <ul class="nav navbar-nav navbar-right">
+	  <a href="/Home/Feedback"><button type="button" class="btn btn-success" data-target="#Mymodal" data-toggle="modal" style="margin-top:10px;margin-right:-30px;">Feedback</button>
+<div class="modal fade" id="Mymodal" role="dialog">
+
+</div>
+        </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+	  <button type="button" class="btn btn-success hvr-wobble-bottom" data-target="#Mymodal" data-toggle="modal" style="margin-top:10px;">Admission Enquiry</button>
+<div class="modal fade" id="Mymodal" role="dialog">
+<div class="modal-dialog modal-sm">
+<div class="modal-content">
+<div class="modal-body">
+<a style="text-align:center; font-size:20px; color:black; text-decoration:none;"><span class="fa fa-empire"></span> Admission Enquiry</a><br><hr><br>
+<input type="text" placeholder="Enter First Name" class="form-control"/><br>
+<input placeholder="Enter Last Name" type="text" class="form-control"/><br>
+<input type="number" size="10" placeholder="Enter Number" class="form-control"/><br>
+<input type="mail" placeholder="Enter Email" class="form-control"/><br>
+<textarea placeholder="Messaage" rows="5" cols="35"></textarea><br>
+</div>
+<button type="submit" value="Record Save" class="btn btn-success form-control">Save</button>
+<div class="modal-footer">
+<button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+        </ul>
+	  
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>
+</div>
+</div>
+<!--------------------------------------------------------Menu close------------------------------------>
+
+<div class="row">
+<div class="col-sm-12" style="padding:0px;">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="margin:0px;padding:0px;">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="~/content/Gallery/gds.jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="~/content/Gallery/GAYA.jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div><div class="item">
+      <img src="~/content/Gallery/GDSI.jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</div>
+
+<!-----------------------------------Slider Close----------------------------------------------->
+
+<div class="row about" style="background:#f8f7e6">
+<div class="col-sm-7">
+<div class="h1 text-center"><u>About Us</u><span class="fa fa-star" style="color:orange;"></span></div><br>
+<div><img src="~/content/Gallery/T.B.S.jpg" class="pic"/></div>
+<p style="font-size:30px;"><i>Late Shri Tej Bahadur Singh <br>(T.B.S.)</i></p>
+</div>
+<div class="col-sm-5">
+<div class="h1 text-center"><u>History Of</u></div><br><br>
+<div class="text-justify a1"><p style="font-size:20px; font color:gray;">Late Shree Tej Bahadur Singh Ji was born on 31/07/1954 . He was a big hero of education department . That's why he was known as the Mahanayak of Devi Patan Mandal Education Department . It was so good. He died on 16/08/2019.</p></div>
+</div>
+</div>
+
+<!------------------------------------------------------------------Services close------------------------------------>
+
+<div class="container" style="width:100%">
+
+
+            <div class="row" style="background-color:#F8F7E6;">
+    <div class="col-sm-3 col-md-3">
+        <p class="rounded" style="font-size:15px; font-weight:bold; padding:5px; margin:0px; background-color:#F6C103; color:white; text-align:center;">NEWS & NOTICES</p>
+        <p class="rounded" style="font-size:15px; font-weight:bold; padding:0px; margin-top:0px; height:5px; background-color:#29156C; color:white; text-align:center;"></p>
+        <marquee direction="up" width="100%" height="400px" onmouseover="this.stop();" onmouseout="this.start();">
+             
+          <a href="News.aspx?11"> <p><img src="~/content/Gallery/new.gif"/><spam style="color:green;"> Date </spam><br> Notice Name</p>
+            <hr style="border-color:green; padding:0px; margin:0px;"/> </a>
+            
+          <a href="News.aspx?10"> <p><img src="~/content/Gallery/new.gif"/> </p>
+            <hr style="border-color:green; padding:0px; margin:0px;"/> </a>
+            
+          <a href="News.aspx?9"> <p><img src="~/content/Gallery/new.gif"/> </p>
+            <hr style="border-color:green; padding:0px; margin:0px;"/> </a>
+            
+          <a href="News.aspx?8"> <p><img src="~/content/Gallery/new.gif"/> </p>
+            <hr style="border-color:green; padding:0px; margin:0px;"/> </a>
+            
+          <a href="News.aspx?7"> <p><img src="~/content/Gallery/new.gif"/> </p>
+            <hr style="border-color:green; padding:0px; margin:0px;"/> </a>
+            
+          <a href="News.aspx?6"> <p><img src="~/content/Gallery/new.gif"/> </p>
+            <hr style="border-color:green; padding:0px; margin:0px;"/> </a>
+            
+          <a href="News.aspx?5"> <p><img src="~/content/Gallery/new.gif"/> </p>
+            <hr style="border-color:green; padding:0px; margin:0px;"/> </a>
+            
+          <a href="News.aspx?4"> <p><img src="~/content/Gallery/new.gif"/> </p>
+            <hr style="border-color:green; padding:0px; margin:0px;"/> </a>
+            
+          <a href="News.aspx?3"> <p><img src="~/content/Gallery/new.gif"/> </p>
+            <hr style="border-color:green; padding:0px; margin:0px;"/> </a>
+            
+          <a href="News.aspx?2"> <p><img src="~/content/Gallery/new.gif"/> </p>
+            <hr style="border-color:green; padding:0px; margin:0px;"/> </a>
+            
+                 </marquee>
+
+    </div>
+    <div class="col-sm-9 col-md-9">
+       <div class="row">
+            <div class="col-sm-12 col-md-12">
+                <p class="rounded" style="font-size:15px; font-weight:bold; padding:5px; margin:0px; background-color:#F6C103; color:white; text-align:center;">ABOUT US</p>
+        <p class="rounded" style="font-size:15px; font-weight:bold; padding:0px; margin-top:0px; height:5px; background-color:#29156C; color:white; text-align:center;"></p>
+        
+        <p>G.D.S. School was established by Mrs. Aasha Singh Wife Of Tej Bahadur Singh, who laid its foundation on in the year 2015 and This place has been established between Maa Barahi and Loknath Baba on the Gangrauli road of Belsar, Tarabganj Tehsil Vikas Khand of Gonda district . In which free education has been provided for the girls, there is also facilities of big ground, computer lab, CCTV camera, projector room, ventilated room and library.
+        
+</p>
+            </div>
+  </div>
+        <div class="row">
+         <div class="col-sm-12 col-md-12">
+             
+        <div class="col-sm-4 col-md-4"  style="margin-top:10px;">
+    <div class="col-sm-12 col-md-12"  style="margin-top:5px;">
+        <center><img src="~/content/Gallery/T.B.S.jpg" class="img-responsive img-circle"></center>
+        <center><a style="font-size:15px; font-weight:bold; padding:2px; margin:0px; color:maroon;" href="Principal_Msg.aspx">From The Foundation</a></center>
+         </div>
+       </div>
+		
+		<div class="col-sm-4 col-md-4"  style="margin-top:10px;">
+    <div class="col-sm-12 col-md-12"  style="margin-top:5px;">
+        <center><img src="~/content/Gallery/T.B.S.jpg" class="img-responsive img-circle"></center>
+        <center><a style="font-size:15px; font-weight:bold; padding:2px; margin:0px; color:maroon;" href="Principal_Msg.aspx">From The Manager</a></center>
+         </div>
+       </div>
+
+              <div class="col-sm-4 col-md-4"  style="margin-top:10px;">
+    <div class="col-sm-12 col-md-12" style="margin-top:5px;">
+        <center><img src="~/content/Gallery/anoop.jpg" class="img-responsive img-circle"></center>
+        <center><a style="font-size:15px; font-weight:bold; padding:2px; margin:0px; color:maroon; text-align:center;" href="Manager_Msg.aspx">From The Principal</a></center>
+         </div>
+       </div>
+
+              
+
+    </div>
+  </div>  
+
+
+        </div> 
+    </div>
+</div>
+
+
+<!----------------------------------------------------Main close------------------------------------>
+
+ <div class="col-sm-12 col-md-12" style="margin-top:30px;">
+    <div class="col-sm-12 col-md-12" style="margin-top:5px;">
+        <p class="rounded" style="font-size:12px; font-weight:bold; padding:2px; margin:0px; background-color:#F6C103; color:white; text-align:center;">SCHOOL TOPPER'S</p>
+        <p class="rounded" style="font-size:15px; font-weight:bold; padding:0px; margin-top:0px; height:5px; background-color:#29156C; color:white; text-align:center;"></p>    
+<div class="col-sm-6">
+        <center>
+		<mark style="background-color:yellow; font-weight:bold; font-size:20px;">HIGHSCHOOL</mark><br><br>
+             <iframe src="~/content/Gallery/anubhav.png" title="" scrolling="no" frameborder="2"
+                                    width="120px" height="120px"></iframe><br><p style="font-weight:bold;">Anubhav Singh <br> 96.5%</p>
+			</div>  </center>
+			  <center> <div class="col-sm-6">
+									<mark style="background-color:yellow; font-weight:bold; font-size:20px;">INTERMEDIATE</mark><br><br>
+									
+		<iframe src="~/content/Gallery/anubhav.png" title="" scrolling="no" frameborder="2"
+                                    width="120px" height="120px"></iframe><br><p style="font-weight:bold;">Anubhav Singh <br> 96.5%</p>
+                </div>
+			   </center>
+        
+         </div>
+                   
+                   
+            
+       </div>
+	   
+	   <!----------------------------------------------------Topper close------------------------------------>
+
+
+
+<div class="row ufooter">
+<div class="col-sm-5">
+<img src="~/content/Gallery/gem.png" style="margin-left:100px; margin-top:30px; background-color:white"/><br>
+<img src="~/content/Gallery/start.png" style="margin-left:100px; margin-top:13px;"/><br>
+<a href="https://www.facebook.com/"><img src="~/content/Gallery/facebook.png" style="margin-left:100px; margin-top:13px;"/></a>
+</div>
+<div class="col-sm-2">
+<h3 style="color:white; margin-top:30px;"><u>Contac</u>t address</h3><br>
+<span class="fa fa-home" style="color:#fbaf0c; font-size:20px;"></span>  <a style="color:#d2d3d3;">Gram Gangrauli<br>Liloi Khurd Belsar<br>
+ Gonda U.P.<br> Pincode - 271401</a><br><br>
+ <a href="#"><span class="fa fa-phone" style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> +91-7985238749</a><br>
+ <a href="#"><span class="fa fa-phone" style="font-size:20px; padding-right:7px; color:#fbaf0c;"></span> +91-9838878222</a><br>
+ <a href="#"><span class="fa fa-envelope" style="font-size:15px; padding-right:7px; color:#fbaf0c;"></span>gdsintercollege@gmail.com</a><br>
+</div>
+<div class="col-sm-2"></div>
+<div class="col-sm-3">
+<img src="~/content/Gallery/saurabh.jpg" class="img-fluid" style="max-height:100px; margin-top:20px;"/><br><br>
+<h5 style="color:white">This is a organization working in both software development and software training which aims to make all the specials of its clients successful means in hindi.</h5>
+<h4 style="color:white; margin-top:10px;"><u>Stay Con</u>nected</h4><br>
+<span class="fa fa-facebook" style="margin-right:15px; margin-top:5px; color:#fbaf0c;"></span>
+<span class="fa fa-twitter" style="margin-right:15px; color:#fbaf0c;"></span>
+<span class="fa fa-google" style="margin-right:15px; color:#fbaf0c;"></span>
+<span class="fa fa-instagram" style="margin-right:15px; color:#fbaf0c;"></span>
+<span class="fa fa-youtube" style="margin-right:15px; color:#fbaf0c;"></span>
+</div>
+</div>
+
+<!-------------------------------------------Ufooter Close----------------------------------------------->
+
+<div class="row bfooter">
+<div class="col-sm-2"></div>
+<div class="col-sm-7">
+<h6 style="color:white; text-align:center"><span class="fa fa-copyright"></span>&nbsp;&nbsp; 2015 &nbsp;&nbsp;<a style="color:orange; font-size:15px;">G.D.S. School</a> &nbsp;&nbsp;2015 &nbsp;|&nbsp; Designed&nbsp; By&nbsp; <a href="/Home/Saurabh" style="color:orange;">SAURABH&nbsp; SINGH</a></h6>
+</div>
+<div class="col-sm-3"><a style="color:orange; font-size:15px; text-align:center;">Privacy&nbsp; and &nbsp;Policy</a></div>
+</div>
+
+<!-----------------------------------------------------Bfooter Close----------------------------------------------->
+
+</div>
+</body>
+</html>

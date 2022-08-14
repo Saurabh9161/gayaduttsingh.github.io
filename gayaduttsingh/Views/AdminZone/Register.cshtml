@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/AdminZone.cshtml";
+}
+
+<h2>Register</h2>
+@using gayaduttsingh.Models
+@model List<register>
+
+<table class="tbl tbl-responsive" border="1">
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Father Name</th>
+        <th>Gender</th>
+        <th>D.O.B.</th>
+        <th>School Name</th>
+        <th>Standard</th>
+        <th>Mobile</th>
+        <th>Address</th>
+        <th>Profile</th>
+        <th>Email</th>
+        <th>Password</th>
+        <th>Date/Time</th>
+    </tr>
+    @{
+         foreach(var x in Model)
+         {
+             <tr style="color:red; font-size:12px;">
+                 <td>@x.fname</td>
+                 <td>@x.lname</td>
+                 <td>@x.father</td>
+                 <td>@x.gender</td>
+                 <td>@x.dob</td>
+                 <td>@x.school</td>
+                 <td>@x.standard</td>
+                 <td>@x.mob</td>
+                 <td>@x.caddr</td>
+                 <td>@x.profile</td>
+                 <td>@x.email</td>
+                 <td>@x.passwd</td>
+                 <td>@x.regdt</td>
+             </tr>   
+    }
+    
+    }
+
+</table>

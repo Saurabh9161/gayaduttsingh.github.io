@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Admission";
+    Layout = "~/Views/Shared/AdminZone.cshtml";
+}
+
+<h2>Admission</h2>
+@using gayaduttsingh.Models
+@model List<Enquiry>
+<table class="tbl tbl-responsive" border="1">
+    <tr>
+        <th>Name</th>
+        <th>Mobile</th>
+        <th>Email</th>
+        <th>Query</th>
+        <th>Date/Time</th>
+    </tr>
+    @{
+        foreach(var x in Model)
+        {
+            <tr style="color:red; font-size:17px;">
+                <td>@x.name</td>
+                 <td>@x.mob</td>
+                 <td>@x.email</td>
+                 <td>@x.query</td>
+                <td>@x.edt</td>
+            </tr>
+    }
+    
+   }
+    </table>
